@@ -437,6 +437,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MelNote/MelNote.entitlements;
 				INFOPLIST_FILE = MelNote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = melbo.co.MelNote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -450,6 +451,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MelNote/MelNote.entitlements;
 				INFOPLIST_FILE = MelNote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = melbo.co.MelNote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -462,6 +464,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MelNoteTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = melbo.co.MelNoteTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -475,6 +478,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MelNoteTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = melbo.co.MelNoteTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -487,6 +491,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = MelNoteUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = melbo.co.MelNoteUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -499,6 +504,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = MelNoteUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = melbo.co.MelNoteUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -526,6 +532,7 @@
 				4330C95E1D38089B00DB0FC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4330C95F1D38089B00DB0FC6 /* Build configuration list for PBXNativeTarget "MelNoteTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +541,7 @@
 				4330C9611D38089B00DB0FC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4330C9621D38089B00DB0FC6 /* Build configuration list for PBXNativeTarget "MelNoteUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +550,7 @@
 				4330C9641D38089B00DB0FC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
