@@ -10,4 +10,11 @@ import UIKit
 
 class AddNoteViewController: UITableViewController {
 
+    @IBAction func add(_ sender: AnyObject) {
+    }
+    @IBAction func cancel(_ sender: AnyObject) {
+    }
+    
+    @IBOutlet weak var noteTextField: UITextField!
+    
 }
