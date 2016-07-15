@@ -10,11 +10,21 @@ import UIKit
 
 class AddNoteViewController: UITableViewController {
 
-    @IBAction func add(_ sender: AnyObject) {
-    }
-    @IBAction func cancel(_ sender: AnyObject) {
+     @IBOutlet weak var noteTextField: UITextField!
+
+    
+    @IBAction func save(sender: AnyObject) {
+
+        NSNotificationCenter.defaultCenter().postNotificationName("NewNote", object: self, userInfo: ["Note": noteTextField.text!])
+
+        dismissViewControllerAnimated(true, completion: nil)
     }
     
-    @IBOutlet weak var noteTextField: UITextField!
+    @IBAction func cancel(sender: AnyObject) {
+        
+        dismissViewControllerAnimated(true, completion: nil)
+    }
     
+
+   
 }

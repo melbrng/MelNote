@@ -9,13 +9,12 @@
 /* Begin PBXBuildFile section */
 		4330C9381D38089B00DB0FC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4330C9371D38089B00DB0FC6 /* AppDelegate.swift */; };
 		4330C93A1D38089B00DB0FC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4330C9391D38089B00DB0FC6 /* ViewController.swift */; };
-		4330C93D1D38089B00DB0FC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4330C93B1D38089B00DB0FC6 /* Main.storyboard */; };
 		4330C93F1D38089B00DB0FC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4330C93E1D38089B00DB0FC6 /* Assets.xcassets */; };
-		4330C9421D38089B00DB0FC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4330C9401D38089B00DB0FC6 /* LaunchScreen.storyboard */; };
 		4330C94D1D38089B00DB0FC6 /* MelNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4330C94C1D38089B00DB0FC6 /* MelNoteTests.swift */; };
 		4330C9581D38089B00DB0FC6 /* MelNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4330C9571D38089B00DB0FC6 /* MelNoteUITests.swift */; };
 		4330C96A1D38100D00DB0FC6 /* NoteListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4330C9691D38100D00DB0FC6 /* NoteListViewController.swift */; };
 		4330C96C1D38102100DB0FC6 /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4330C96B1D38102100DB0FC6 /* AddNoteViewController.swift */; };
+		43DA82CC1D3838B90069844D /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43DA82CB1D3838B90069844D /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +38,7 @@
 		4330C9341D38089B00DB0FC6 /* MelNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MelNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4330C9371D38089B00DB0FC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4330C9391D38089B00DB0FC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4330C93C1D38089B00DB0FC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4330C93E1D38089B00DB0FC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4330C9411D38089B00DB0FC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4330C9431D38089B00DB0FC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4330C9481D38089B00DB0FC6 /* MelNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MelNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4330C94C1D38089B00DB0FC6 /* MelNoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelNoteTests.swift; sourceTree = "<group>"; };
@@ -52,6 +49,7 @@
 		4330C9651D3809E300DB0FC6 /* MelNote.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MelNote.entitlements; sourceTree = "<group>"; };
 		4330C9691D38100D00DB0FC6 /* NoteListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteListViewController.swift; sourceTree = "<group>"; };
 		4330C96B1D38102100DB0FC6 /* AddNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNoteViewController.swift; sourceTree = "<group>"; };
+		43DA82CB1D3838B90069844D /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,12 +104,11 @@
 				4330C9651D3809E300DB0FC6 /* MelNote.entitlements */,
 				4330C9371D38089B00DB0FC6 /* AppDelegate.swift */,
 				4330C9391D38089B00DB0FC6 /* ViewController.swift */,
-				4330C93B1D38089B00DB0FC6 /* Main.storyboard */,
 				4330C93E1D38089B00DB0FC6 /* Assets.xcassets */,
-				4330C9401D38089B00DB0FC6 /* LaunchScreen.storyboard */,
 				4330C9431D38089B00DB0FC6 /* Info.plist */,
 				4330C9691D38100D00DB0FC6 /* NoteListViewController.swift */,
 				4330C96B1D38102100DB0FC6 /* AddNoteViewController.swift */,
+				43DA82CB1D3838B90069844D /* Storyboard.storyboard */,
 			);
 			path = MelNote;
 			sourceTree = "<group>";
@@ -259,9 +256,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4330C9421D38089B00DB0FC6 /* LaunchScreen.storyboard in Resources */,
+				43DA82CC1D3838B90069844D /* Storyboard.storyboard in Resources */,
 				4330C93F1D38089B00DB0FC6 /* Assets.xcassets in Resources */,
-				4330C93D1D38089B00DB0FC6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,25 +320,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		4330C93B1D38089B00DB0FC6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4330C93C1D38089B00DB0FC6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4330C9401D38089B00DB0FC6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4330C9411D38089B00DB0FC6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		4330C95A1D38089B00DB0FC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -382,7 +359,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -423,7 +400,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
