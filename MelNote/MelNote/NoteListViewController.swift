@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class NoteListViewController: UITableViewController {
     
     var notes = [String]()
@@ -18,6 +19,8 @@ class NoteListViewController: UITableViewController {
         super.viewDidLoad()
         
         navigationItem.leftBarButtonItem = editButtonItem()
+        
+        //authen
         
         //for iCloud key-value store we use NSUbiquitousKeyValueStore class for reading and writing property data
         let defaultValueStore = NSUbiquitousKeyValueStore.defaultStore()
@@ -37,6 +40,8 @@ class NoteListViewController: UITableViewController {
     }
     
     
+    // MARK: load data
+    
     //array of values of AnyObject type
     func loadNotes(){
         
@@ -46,7 +51,7 @@ class NoteListViewController: UITableViewController {
         }
     }
     
-    // MARK : TableView Data source
+    // MARK: TableView Data source
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int{
         
         return 1
@@ -66,6 +71,7 @@ class NoteListViewController: UITableViewController {
         
     }
     
+    // MARK: Observers
 
     func storeDidChange(notification: NSNotification){
         
@@ -89,5 +95,7 @@ class NoteListViewController: UITableViewController {
         tableView.reloadData()
         
     }
+    
+
 
 }

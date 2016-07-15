@@ -1,0 +1,6 @@
+framework module Pods_MelNoteUITests {
+  umbrella header "Pods-MelNoteUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
